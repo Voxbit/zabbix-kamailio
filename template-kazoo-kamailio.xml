@@ -5612,7 +5612,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template - Voxbit - Kamailio:proc.num[,kamailio,,kamailio].last(0)}&lt;64</expression>
+            <expression>{Template - Voxbit - Kamailio:proc.num[,kamailio,,kamailio].last(0)}&lt;30</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Kamailio Processes count too LOW</name>
