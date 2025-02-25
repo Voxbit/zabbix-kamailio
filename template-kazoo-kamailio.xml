@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>Template - Kazoo - Kamailio</template>
-            <name>Template - Kazoo - Kamailio</name>
+            <template>Template - Voxbit - Kamailio</template>
+            <name>Template - Voxbit - Kamailio</name>
             <description/>
             <groups>
                 <group>
@@ -5580,7 +5580,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template - Kazoo - Kamailio:kamailio[shmem-free_size].last()}&lt;32M</expression>
+            <expression>{Template - Voxbit - Kamailio:kamailio[shmem-free_size].last()}&lt;32M</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Kamailio Free SHMEM too Low</name>
@@ -5596,7 +5596,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template - Kazoo - Kamailio:proc.num[,kamailio,,kamailio].last(0)}&gt;256</expression>
+            <expression>{Template - Voxbit - Kamailio:proc.num[,kamailio,,kamailio].last(0)}&gt;256</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Kamailio Processes count too HIGH</name>
@@ -5612,7 +5612,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Template - Kazoo - Kamailio:proc.num[,kamailio,,kamailio].last(0)}&lt;64</expression>
+            <expression>{Template - Voxbit - Kamailio:proc.num[,kamailio,,kamailio].last(0)}&lt;64</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Kamailio Processes count too LOW</name>
@@ -5655,7 +5655,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>proc.num[,kamailio,,kamailio]</key>
                     </item>
                 </graph_item>
@@ -5687,7 +5687,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[shmem-total_size]</key>
                     </item>
                 </graph_item>
@@ -5699,7 +5699,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[shmem-free_size]</key>
                     </item>
                 </graph_item>
@@ -5711,7 +5711,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[shmem-max_used_size]</key>
                     </item>
                 </graph_item>
@@ -5723,7 +5723,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[shmem-real_used_size]</key>
                     </item>
                 </graph_item>
@@ -5735,7 +5735,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[shmem-used_size]</key>
                     </item>
                 </graph_item>
@@ -5767,7 +5767,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-1xx_replies]</key>
                     </item>
                 </graph_item>
@@ -5779,7 +5779,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-2xx_replies]</key>
                     </item>
                 </graph_item>
@@ -5791,7 +5791,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-3xx_replies]</key>
                     </item>
                 </graph_item>
@@ -5803,7 +5803,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-4xx_replies]</key>
                     </item>
                 </graph_item>
@@ -5815,7 +5815,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-5xx_replies]</key>
                     </item>
                 </graph_item>
@@ -5827,7 +5827,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-6xx_replies]</key>
                     </item>
                 </graph_item>
@@ -5839,7 +5839,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-failures]</key>
                     </item>
                 </graph_item>
@@ -5851,7 +5851,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-received_ACKs]</key>
                     </item>
                 </graph_item>
@@ -5863,7 +5863,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-sent_err_replies]</key>
                     </item>
                 </graph_item>
@@ -5875,7 +5875,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[sl-sent_replies]</key>
                     </item>
                 </graph_item>
@@ -5907,7 +5907,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-2xx_transactions]</key>
                     </item>
                 </graph_item>
@@ -5919,7 +5919,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-3xx_transactions]</key>
                     </item>
                 </graph_item>
@@ -5931,7 +5931,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-4xx_transactions]</key>
                     </item>
                 </graph_item>
@@ -5943,7 +5943,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-5xx_transactions]</key>
                     </item>
                 </graph_item>
@@ -5955,7 +5955,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-6xx_transactions]</key>
                     </item>
                 </graph_item>
@@ -5967,7 +5967,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-UAC_transactions]</key>
                     </item>
                 </graph_item>
@@ -5979,7 +5979,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[tmx-UAS_transactions]</key>
                     </item>
                 </graph_item>
@@ -6011,7 +6011,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[usrloc-registered_users]</key>
                     </item>
                 </graph_item>
@@ -6023,7 +6023,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[usrloc-location-users]</key>
                     </item>
                 </graph_item>
@@ -6035,7 +6035,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[usrloc-location-contacts]</key>
                     </item>
                 </graph_item>
@@ -6047,7 +6047,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template - Kazoo - Kamailio</host>
+                        <host>Template - Voxbit - Kamailio</host>
                         <key>kamailio[usrloc-location-expires]</key>
                     </item>
                 </graph_item>
