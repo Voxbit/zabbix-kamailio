@@ -88,6 +88,11 @@ case $METRIC in
     'core-rcv_requests_subscribe') cat $CACHE | grep 'core:rcv_requests_subscribe' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'core-rcv_requests_update')  cat $CACHE | grep 'core:rcv_requests_update' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'core-unsupported_methods')  cat $CACHE | grep 'core:unsupported_methods' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'dialog-active_dialogs')  cat $CACHE | grep 'dialog:active_dialogs' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'dialog-early_dialogs')  cat $CACHE | grep 'dialog:early_dialogs' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'dialog-expired_dialogs')  cat $CACHE | grep 'dialog:expired_dialogs' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'dialog-failed_dialogs')  cat $CACHE | grep 'dialog:failed_dialogs' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'dialog-processed_dialogs')  cat $CACHE | grep 'dialog:processed_dialogs' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'dns-failed_dns_request')    cat $CACHE | grep 'dns:failed_dns_request' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'nat_traversal-dialog_endpoints')    cat $CACHE | grep 'nat_traversal:dialog_endpoints' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'nat_traversal-keepalive_endpoints')    cat $CACHE | grep 'nat_traversal:keepalive_endpoints' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
