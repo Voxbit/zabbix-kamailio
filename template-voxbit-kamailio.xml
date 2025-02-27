@@ -3,11 +3,13 @@
     <version>7.0</version>
     <template_groups>
         <template_group>
+            <uuid>7df96b18c230490a9a0a9e2307226338</uuid>
             <name>Templates</name>
         </template_group>
     </template_groups>
     <templates>
         <template>
+            <uuid>12b53ea9c1e64408a41b16b6897a462e</uuid>
             <template>Template - Voxbit - Kamailio</template>
             <name>Template - Voxbit - Kamailio</name>
             <groups>
@@ -17,6 +19,7 @@
             </groups>
             <items>
                 <item>
+                    <uuid>5c00935aedd649e2a8af0fca50d33905</uuid>
                     <name>kamailio core: bad_msg_hdr</name>
                     <key>kamailio[core-bad_msg_hdr]</key>
                     <delay>120</delay>
@@ -37,6 +40,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>e6c9fefd544746daa7e565585a3306d9</uuid>
                     <name>kamailio core: bad_URIs_rcvd</name>
                     <key>kamailio[core-bad_URIs_rcvd]</key>
                     <delay>120</delay>
@@ -57,6 +61,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>37c98d25760f4cafb0c6a9114e389ebd</uuid>
                     <name>kamailio core: drop_replies</name>
                     <key>kamailio[core-drop_replies]</key>
                     <delay>120</delay>
@@ -77,6 +82,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>c389a06131b348b39f3b13f9c7c958c1</uuid>
                     <name>kamailio core: drop_requests</name>
                     <key>kamailio[core-drop_requests]</key>
                     <delay>120</delay>
@@ -97,6 +103,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8dd45360095b44d99ad37c8051cc7772</uuid>
                     <name>kamailio core: err_replies</name>
                     <key>kamailio[core-err_replies]</key>
                     <delay>120</delay>
@@ -117,6 +124,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b33a59fc759d435da0f2b78e7a526489</uuid>
                     <name>kamailio core: err_requests</name>
                     <key>kamailio[core-err_requests]</key>
                     <delay>120</delay>
@@ -137,6 +145,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8b2208627f3b4b61a12aa170b512532a</uuid>
                     <name>kamailio core: fwd_replies</name>
                     <key>kamailio[core-fwd_replies]</key>
                     <delay>120</delay>
@@ -157,6 +166,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>23081b0eeac743eb88c741e4b673e872</uuid>
                     <name>kamailio core: fwd_requests</name>
                     <key>kamailio[core-fwd_requests]</key>
                     <delay>120</delay>
@@ -177,6 +187,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>fd7ea285714a499db3b4fab2db054eff</uuid>
                     <name>kamailio core: rcv_replies</name>
                     <key>kamailio[core-rcv_replies]</key>
                     <delay>120</delay>
@@ -197,6 +208,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b6f5d44e31d046e1b9499a32afef688c</uuid>
                     <name>kamailio core: rcv_replies_1xx</name>
                     <key>kamailio[core-rcv_replies_1xx]</key>
                     <delay>120</delay>
@@ -217,6 +229,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>7c6e46a471fb4bfea74d1a3a362d3f81</uuid>
                     <name>kamailio core: rcv_replies_2xx</name>
                     <key>kamailio[core-rcv_replies_2xx]</key>
                     <delay>120</delay>
@@ -237,6 +250,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>6a5d58050c9845129e110e3e2d379dd8</uuid>
                     <name>kamailio core: rcv_replies_3xx</name>
                     <key>kamailio[core-rcv_replies_3xx]</key>
                     <delay>120</delay>
@@ -257,6 +271,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>4f7f1d665e174915b7da01f7a17c37c1</uuid>
                     <name>kamailio core: rcv_replies_4xx</name>
                     <key>kamailio[core-rcv_replies_4xx]</key>
                     <delay>120</delay>
@@ -277,6 +292,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>34210bbbeaad436cb3e9b9f512efe112</uuid>
                     <name>kamailio core: rcv_replies_5xx</name>
                     <key>kamailio[core-rcv_replies_5xx]</key>
                     <delay>120</delay>
@@ -297,6 +313,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>7561fb28f2b649c2abea8f785f88082f</uuid>
                     <name>kamailio core: rcv_replies_6xx</name>
                     <key>kamailio[core-rcv_replies_6xx]</key>
                     <delay>120</delay>
@@ -317,6 +334,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>57af1a51627f46769f2e49ba9f8d631a</uuid>
                     <name>kamailio core: rcv_replies_18x</name>
                     <key>kamailio[core-rcv_replies_18x]</key>
                     <delay>120</delay>
@@ -337,6 +355,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>09c19204b32a4e1b8b44085e2ab261c3</uuid>
                     <name>kamailio core: rcv_replies_401</name>
                     <key>kamailio[core-rcv_replies_401]</key>
                     <delay>120</delay>
@@ -357,6 +376,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>3928f74a5c9e42158a728e4138d4d8f0</uuid>
                     <name>kamailio core: rcv_replies_404</name>
                     <key>kamailio[core-rcv_replies_404]</key>
                     <delay>120</delay>
@@ -377,6 +397,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>0671701274604f01b68fd9c32f3507d6</uuid>
                     <name>kamailio core: rcv_replies_407</name>
                     <key>kamailio[core-rcv_replies_407]</key>
                     <delay>120</delay>
@@ -397,6 +418,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>7e1facfe107a4f1993aaf9a93be8456c</uuid>
                     <name>kamailio core: rcv_replies_480</name>
                     <key>kamailio[core-rcv_replies_480]</key>
                     <delay>120</delay>
@@ -417,6 +439,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>d60eb174c2d84ca0b72d2d30b0653842</uuid>
                     <name>kamailio core: rcv_replies_486</name>
                     <key>kamailio[core-rcv_replies_486]</key>
                     <delay>120</delay>
@@ -437,6 +460,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>6d0f9c4f723447209884868639b67eae</uuid>
                     <name>kamailio core: rcv_requests</name>
                     <key>kamailio[core-rcv_requests]</key>
                     <delay>120</delay>
@@ -457,6 +481,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>fed961295c4046dfbcae568a08a1fc22</uuid>
                     <name>kamailio core: rcv_requests_ack</name>
                     <key>kamailio[core-rcv_requests_ack]</key>
                     <delay>120</delay>
@@ -477,6 +502,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>ecbf707dd435494ca1e1ad7cbae135c3</uuid>
                     <name>kamailio core: rcv_requests_bye</name>
                     <key>kamailio[core-rcv_requests_bye]</key>
                     <delay>120</delay>
@@ -497,6 +523,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>244b1d66cac24f20884710f455e97f03</uuid>
                     <name>kamailio core: rcv_requests_cancel</name>
                     <key>kamailio[core-rcv_requests_cancel]</key>
                     <delay>120</delay>
@@ -517,6 +544,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8f79de430c2443d882201fac400f4c58</uuid>
                     <name>kamailio core: rcv_requests_info</name>
                     <key>kamailio[core-rcv_requests_info]</key>
                     <delay>120</delay>
@@ -537,6 +565,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>af14e80239de4f3a8267790d9745dad0</uuid>
                     <name>kamailio core: rcv_requests_invite</name>
                     <key>kamailio[core-rcv_requests_invite]</key>
                     <delay>120</delay>
@@ -557,6 +586,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8b189a8607ce46d2ac3d2772aa045fe9</uuid>
                     <name>kamailio core: rcv_requests_message</name>
                     <key>kamailio[core-rcv_requests_message]</key>
                     <delay>120</delay>
@@ -577,6 +607,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>9668de4499e04ddcbeb34680fb683cdd</uuid>
                     <name>kamailio core: rcv_requests_notify</name>
                     <key>kamailio[core-rcv_requests_notify]</key>
                     <delay>120</delay>
@@ -597,6 +628,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>48bff23913d646e0ab13c471c4e78ff9</uuid>
                     <name>kamailio core: rcv_requests_options</name>
                     <key>kamailio[core-rcv_requests_options]</key>
                     <delay>120</delay>
@@ -617,6 +649,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>9e1764af994c45ef82876397716ec3f9</uuid>
                     <name>kamailio core: rcv_requests_prack</name>
                     <key>kamailio[core-rcv_requests_prack]</key>
                     <delay>120</delay>
@@ -637,6 +670,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>c9d008d221f24d3e8ba04065fc91302a</uuid>
                     <name>kamailio core: rcv_requests_publish</name>
                     <key>kamailio[core-rcv_requests_publish]</key>
                     <delay>120</delay>
@@ -657,6 +691,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>9737affdea8c48e4a3cb45a5f8a1c1bc</uuid>
                     <name>kamailio core: rcv_requests_refer</name>
                     <key>kamailio[core-rcv_requests_refer]</key>
                     <delay>120</delay>
@@ -677,6 +712,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>6f052d57581e4e90bc9acd4b09f30215</uuid>
                     <name>kamailio core: rcv_requests_register</name>
                     <key>kamailio[core-rcv_requests_register]</key>
                     <delay>120</delay>
@@ -697,6 +733,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>de54fd8ee44f430f9fc7e9901f45067a</uuid>
                     <name>kamailio core: rcv_requests_subscribe</name>
                     <key>kamailio[core-rcv_requests_subscribe]</key>
                     <delay>120</delay>
@@ -717,6 +754,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b3efb4fedba04027b136be968b8aa866</uuid>
                     <name>kamailio core: rcv_requests_update</name>
                     <key>kamailio[core-rcv_requests_update]</key>
                     <delay>120</delay>
@@ -737,6 +775,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>7a66ad3df0364ad39d3cd451728174c9</uuid>
                     <name>kamailio core: unsupported_methods</name>
                     <key>kamailio[core-unsupported_methods]</key>
                     <delay>120</delay>
@@ -757,6 +796,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>628e3f58fc0f47b6b26f8d36ddd5dbb0</uuid>
                     <name>kamailio dialog: active_dialogs</name>
                     <key>kamailio[dialog-active_dialogs]</key>
                     <delay>120</delay>
@@ -769,6 +809,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>5f36ea545f7743d6950931e8a379cbc1</uuid>
                     <name>kamailio dialog: early_dialogs</name>
                     <key>kamailio[dialog-early_dialogs]</key>
                     <delay>120</delay>
@@ -781,6 +822,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>f97e1a60b3b3430ca356ae3e89b09aee</uuid>
                     <name>kamailio dialog: expired_dialogs</name>
                     <key>kamailio[dialog-expired_dialogs]</key>
                     <delay>120</delay>
@@ -801,6 +843,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>60714879d1314ce19a8beb445e6bf62a</uuid>
                     <name>kamailio dialog: failed_dialogs</name>
                     <key>kamailio[dialog-failed_dialogs]</key>
                     <delay>120</delay>
@@ -821,6 +864,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>9c9a8db0f22848dc8d653c3cdd5f16d2</uuid>
                     <name>kamailio dialog: processed_dialogs</name>
                     <key>kamailio[dialog-processed_dialogs]</key>
                     <delay>120</delay>
@@ -841,6 +885,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>928b1ef9b3924621af6e0877833bc6d1</uuid>
                     <name>kamailio dns: failed_dns_request</name>
                     <key>kamailio[dns-failed_dns_request]</key>
                     <delay>120</delay>
@@ -861,6 +906,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>777e7396f3814b84b033d2684b711f2e</uuid>
                     <name>kamailio nat traversal: dialog_endpoints</name>
                     <key>kamailio[nat_traversal-dialog_endpoints]</key>
                     <delay>120</delay>
@@ -873,6 +919,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>1cbd805a57664a9b9d4a5998912ed4a5</uuid>
                     <name>kamailio nat traversal: keepalive_endpoints</name>
                     <key>kamailio[nat_traversal-keepalive_endpoints]</key>
                     <delay>120</delay>
@@ -885,6 +932,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8717fc2dc2284488a5dfd25fe191614f</uuid>
                     <name>kamailio nat traversal: registered_endpoints</name>
                     <key>kamailio[nat_traversal-registered_endpoints]</key>
                     <delay>120</delay>
@@ -897,6 +945,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>4bd8f25c2b7d4758adef8a8f3972c12b</uuid>
                     <name>kamailio nat traversal: subscribed_endpoints</name>
                     <key>kamailio[nat_traversal-subscribed_endpoints]</key>
                     <delay>120</delay>
@@ -909,6 +958,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>93f5900b26fc49058e5cf510a590b4d0</uuid>
                     <name>kamailio pkg: mem_used</name>
                     <key>kamailio[pkg-mem_used]</key>
                     <delay>120</delay>
@@ -922,6 +972,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>542071e36a9642e5a18d91da1a43571d</uuid>
                     <name>kamailio registrar: accepted_regs</name>
                     <key>kamailio[registrar-accepted_regs]</key>
                     <delay>120</delay>
@@ -942,6 +993,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>cc1b60cca41c4348a3ecfc285ee1ca4e</uuid>
                     <name>kamailio registrar: default_expires_range</name>
                     <key>kamailio[registrar-default_expires_range]</key>
                     <delay>120</delay>
@@ -954,6 +1006,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>dcd7dc0532df466a953f8e7c16c7f573</uuid>
                     <name>kamailio registrar: default_expire</name>
                     <key>kamailio[registrar-default_expire]</key>
                     <delay>3600</delay>
@@ -966,6 +1019,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>c5e04769ff014890b369030174714ae4</uuid>
                     <name>kamailio registrar: max_contacts</name>
                     <key>kamailio[registrar-max_contacts]</key>
                     <delay>3600</delay>
@@ -978,6 +1032,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>6e925e04f2484b65947528e9bbae0a29</uuid>
                     <name>kamailio registrar: max_expires</name>
                     <key>kamailio[registrar-max_expires]</key>
                     <delay>3600</delay>
@@ -990,6 +1045,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>fd98327b60ce457fb834dcbceb4f87bd</uuid>
                     <name>kamailio registrar: rejected_regs</name>
                     <key>kamailio[registrar-rejected_regs]</key>
                     <delay>120</delay>
@@ -1010,6 +1066,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>9063e250105d4bdcabb970fa52c6459c</uuid>
                     <name>kamailio shmem: fragments</name>
                     <key>kamailio[shmem-fragments]</key>
                     <delay>120</delay>
@@ -1022,6 +1079,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>80630bdd47ae45ecb18f46ae3982e70e</uuid>
                     <name>kamailio shmem: free_size</name>
                     <key>kamailio[shmem-free_size]</key>
                     <delay>120</delay>
@@ -1043,6 +1101,7 @@
                     </triggers>
                 </item>
                 <item>
+                    <uuid>98322a885ed5479686118e426ab5e7c2</uuid>
                     <name>kamailio shmem: max_used_size</name>
                     <key>kamailio[shmem-max_used_size]</key>
                     <delay>120</delay>
@@ -1056,6 +1115,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>46aa27dd260f485296ed66d1990a32bf</uuid>
                     <name>kamailio shmem: real_used_size</name>
                     <key>kamailio[shmem-real_used_size]</key>
                     <delay>120</delay>
@@ -1069,6 +1129,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>cc1b19563ea845a59a288aba9b6b7cba</uuid>
                     <name>kamailio shmem: total_size</name>
                     <key>kamailio[shmem-total_size]</key>
                     <delay>120</delay>
@@ -1082,6 +1143,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>d3de425da38d4b7bb9aba56e1149dde9</uuid>
                     <name>kamailio shmem: used_size</name>
                     <key>kamailio[shmem-used_size]</key>
                     <delay>120</delay>
@@ -1095,6 +1157,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>7b42d9358c3c417d9f7baea99551c1fa</uuid>
                     <name>kamailio sl: 1xx_replies</name>
                     <key>kamailio[sl-1xx_replies]</key>
                     <delay>120</delay>
@@ -1115,6 +1178,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>0b0685ec9e8741ebb9057600de35aac0</uuid>
                     <name>kamailio sl: 2xx_replies</name>
                     <key>kamailio[sl-2xx_replies]</key>
                     <delay>120</delay>
@@ -1135,6 +1199,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>a7f4121b989149719ff5727c922b0d97</uuid>
                     <name>kamailio sl: 3xx_replies</name>
                     <key>kamailio[sl-3xx_replies]</key>
                     <delay>120</delay>
@@ -1155,6 +1220,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>453f8c6fe2a94b318ba443f02026c0c8</uuid>
                     <name>kamailio sl: 4xx_replies</name>
                     <key>kamailio[sl-4xx_replies]</key>
                     <delay>120</delay>
@@ -1175,6 +1241,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>2293704597c04920b87715e331434346</uuid>
                     <name>kamailio sl: 5xx_replies</name>
                     <key>kamailio[sl-5xx_replies]</key>
                     <delay>120</delay>
@@ -1195,6 +1262,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>d93553b505694a73aae45dddf03dc0f4</uuid>
                     <name>kamailio sl: 6xx_replies</name>
                     <key>kamailio[sl-6xx_replies]</key>
                     <delay>120</delay>
@@ -1215,6 +1283,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>5227bdb8d2574657990a0ea659a6c4f9</uuid>
                     <name>kamailio sl: 200_replies</name>
                     <key>kamailio[sl-200_replies]</key>
                     <delay>120</delay>
@@ -1235,6 +1304,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>27948b6a992d476cb1e9fd80ebfee091</uuid>
                     <name>kamailio sl: 202_replies</name>
                     <key>kamailio[sl-202_replies]</key>
                     <delay>120</delay>
@@ -1255,6 +1325,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>33420042372849ce96498e79ee6e7baf</uuid>
                     <name>kamailio sl: 300_replies</name>
                     <key>kamailio[sl-300_replies]</key>
                     <delay>120</delay>
@@ -1275,6 +1346,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>f89cb02979594dcab44dc1efb5ad3623</uuid>
                     <name>kamailio sl: 301_replies</name>
                     <key>kamailio[sl-301_replies]</key>
                     <delay>120</delay>
@@ -1295,6 +1367,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>a51b9fc5f9cf48bebcdad2580c17e5cf</uuid>
                     <name>kamailio sl: 302_replies</name>
                     <key>kamailio[sl-302_replies]</key>
                     <delay>120</delay>
@@ -1315,6 +1388,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>ff62334209f548828f04c34572201e95</uuid>
                     <name>kamailio sl: 400_replies</name>
                     <key>kamailio[sl-400_replies]</key>
                     <delay>120</delay>
@@ -1335,6 +1409,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>33efc8fb525e45fd96b0b342c983ab7e</uuid>
                     <name>kamailio sl: 401_replies</name>
                     <key>kamailio[sl-401_replies]</key>
                     <delay>120</delay>
@@ -1355,6 +1430,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>f2ef99897b4b4e1ab1d4ec7e80c4acf0</uuid>
                     <name>kamailio sl: 403_replies</name>
                     <key>kamailio[sl-403_replies]</key>
                     <delay>120</delay>
@@ -1375,6 +1451,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>fea994597aed4c628c0c7e9438cba6d6</uuid>
                     <name>kamailio sl: 404_replies</name>
                     <key>kamailio[sl-404_replies]</key>
                     <delay>120</delay>
@@ -1395,6 +1472,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>76187c208fda43ef8a880e2c09c291b8</uuid>
                     <name>kamailio sl: 407_replies</name>
                     <key>kamailio[sl-407_replies]</key>
                     <delay>120</delay>
@@ -1415,6 +1493,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>0cdc859461354ef1ba04719ee0d9d1fd</uuid>
                     <name>kamailio sl: 408_replies</name>
                     <key>kamailio[sl-408_replies]</key>
                     <delay>120</delay>
@@ -1435,6 +1514,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>f764fa647c0649b0a2e4253ef3be3a17</uuid>
                     <name>kamailio sl: 483_replies</name>
                     <key>kamailio[sl-483_replies]</key>
                     <delay>120</delay>
@@ -1455,6 +1535,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b445e831086645c586d843c93ed310f2</uuid>
                     <name>kamailio sl: 500_replies</name>
                     <key>kamailio[sl-500_replies]</key>
                     <delay>120</delay>
@@ -1475,6 +1556,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>2d92bde684694678b4b41d66f32d1d32</uuid>
                     <name>kamailio sl: failures</name>
                     <key>kamailio[sl-failures]</key>
                     <delay>120</delay>
@@ -1495,6 +1577,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>e5514ef0715443319ac493294c0c24f1</uuid>
                     <name>kamailio sl: received_ACKs</name>
                     <key>kamailio[sl-received_ACKs]</key>
                     <delay>120</delay>
@@ -1515,6 +1598,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>276ebba8044a43b09d376bbd163688cc</uuid>
                     <name>kamailio sl: sent_err_replies</name>
                     <key>kamailio[sl-sent_err_replies]</key>
                     <delay>120</delay>
@@ -1535,6 +1619,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>c0c77c96ab7d443ab5f9c69f7edd56ed</uuid>
                     <name>kamailio sl: sent_replies</name>
                     <key>kamailio[sl-sent_replies]</key>
                     <delay>120</delay>
@@ -1555,6 +1640,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>ed28ea50342d42359107b3ceba46a370</uuid>
                     <name>kamailio sl: xxx_replies</name>
                     <key>kamailio[sl-xxx_replies]</key>
                     <delay>120</delay>
@@ -1575,6 +1661,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>98fe42cc1cdd45b185bb2ee42bd6cfcf</uuid>
                     <name>kamailio tcp: connect_failed</name>
                     <key>kamailio[tcp-connect_failed]</key>
                     <delay>120</delay>
@@ -1595,6 +1682,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>a61ac1a0b28a4d79b52875e29a8886ed</uuid>
                     <name>kamailio tcp: connect_success</name>
                     <key>kamailio[tcp-connect_success]</key>
                     <delay>120</delay>
@@ -1615,6 +1703,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>a2b1b038f600418e9f0d136b132ae3bb</uuid>
                     <name>kamailio tcp: con_reset</name>
                     <key>kamailio[tcp-con_reset]</key>
                     <delay>120</delay>
@@ -1635,6 +1724,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>1866ea4cd4a444efb7d5fd5ce1d5662a</uuid>
                     <name>kamailio tcp: con_timeout</name>
                     <key>kamailio[tcp-con_timeout]</key>
                     <delay>120</delay>
@@ -1655,6 +1745,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>2d0edf102670474bbf83ae72bba8a341</uuid>
                     <name>kamailio tcp: current_opened_connections</name>
                     <key>kamailio[tcp-current_opened_connections]</key>
                     <delay>120</delay>
@@ -1667,6 +1758,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>d4cb19e1fe8d427aaa7e0ff5f8814fb7</uuid>
                     <name>kamailio tcp: current_write_queue_size</name>
                     <key>kamailio[tcp-current_write_queue_size]</key>
                     <delay>120</delay>
@@ -1687,6 +1779,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>1709858ec95e4d619e45d47297ad8e4c</uuid>
                     <name>kamailio tcp: established</name>
                     <key>kamailio[tcp-established]</key>
                     <delay>120</delay>
@@ -1707,6 +1800,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>4b628b941f5d454f892f3f7453a9c21f</uuid>
                     <name>kamailio tcp: local_reject</name>
                     <key>kamailio[tcp-local_reject]</key>
                     <delay>120</delay>
@@ -1727,6 +1821,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>12ff01afce5148d3a7c54d49821a75be</uuid>
                     <name>kamailio tcp: passive_open</name>
                     <key>kamailio[tcp-passive_open]</key>
                     <delay>120</delay>
@@ -1747,6 +1842,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>2213f625b4204a2787a590776b3d996a</uuid>
                     <name>kamailio tcp: sendq_full</name>
                     <key>kamailio[tcp-sendq_full]</key>
                     <delay>120</delay>
@@ -1767,6 +1863,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>89706787478c47378b7b499e4b80441d</uuid>
                     <name>kamailio tcp: send_timeout</name>
                     <key>kamailio[tcp-send_timeout]</key>
                     <delay>120</delay>
@@ -1787,6 +1884,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>ac145b10003344dba4f66e8b9e79f3ef</uuid>
                     <name>kamailio tmx: 2xx_transactions</name>
                     <key>kamailio[tmx-2xx_transactions]</key>
                     <delay>120</delay>
@@ -1807,6 +1905,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>9cd545382b944c6c89e21abfbed7e777</uuid>
                     <name>kamailio tmx: 3xx_transactions</name>
                     <key>kamailio[tmx-3xx_transactions]</key>
                     <delay>120</delay>
@@ -1827,6 +1926,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>720446c4b43649fca82ca8913def740b</uuid>
                     <name>kamailio tmx: 4xx_transactions</name>
                     <key>kamailio[tmx-4xx_transactions]</key>
                     <delay>120</delay>
@@ -1847,6 +1947,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>fcd198ce4f8e4341a479a32ad0d12f6f</uuid>
                     <name>kamailio tmx: 5xx_transactions</name>
                     <key>kamailio[tmx-5xx_transactions]</key>
                     <delay>120</delay>
@@ -1867,6 +1968,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>c035e49992a54f76ae4bcd6a1e5b362c</uuid>
                     <name>kamailio tmx: 6xx_transactions</name>
                     <key>kamailio[tmx-6xx_transactions]</key>
                     <delay>120</delay>
@@ -1887,6 +1989,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b788cbac1d274b65b00735aae65cd8f2</uuid>
                     <name>kamailio tmx: active_transactions</name>
                     <key>kamailio[tmx-active_transactions]</key>
                     <delay>120</delay>
@@ -1899,6 +2002,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>5022c712c4bf4edba75473e0450830cf</uuid>
                     <name>kamailio tmx: inuse_transactions</name>
                     <key>kamailio[tmx-inuse_transactions]</key>
                     <delay>120</delay>
@@ -1911,6 +2015,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b285e10b0850494596171916fc3c9f7f</uuid>
                     <name>kamailio tmx: UAC_transactions</name>
                     <key>kamailio[tmx-UAC_transactions]</key>
                     <delay>120</delay>
@@ -1931,6 +2036,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>573675a3ed2443e99ac18413964b09af</uuid>
                     <name>kamailio tmx: UAS_transactions</name>
                     <key>kamailio[tmx-UAS_transactions]</key>
                     <delay>120</delay>
@@ -1951,6 +2057,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>b59c20fca3cf43c1a18503ecd15e2fb1</uuid>
                     <name>kamailio usrloc: location-contacts</name>
                     <key>kamailio[usrloc-location-contacts]</key>
                     <delay>120</delay>
@@ -1963,6 +2070,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8628898212fc44ab910b3e322681aa1c</uuid>
                     <name>kamailio usrloc: location-expires</name>
                     <key>kamailio[usrloc-location-expires]</key>
                     <delay>3600</delay>
@@ -1975,6 +2083,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>cf92f2b7155842f2a0940452ec1a23d3</uuid>
                     <name>kamailio usrloc: location-users</name>
                     <key>kamailio[usrloc-location-users]</key>
                     <delay>120</delay>
@@ -1987,6 +2096,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>3a350bb3787f49acba62c62b7baa3c8d</uuid>
                     <name>kamailio usrloc: registered_users</name>
                     <key>kamailio[usrloc-registered_users]</key>
                     <delay>120</delay>
@@ -1999,6 +2109,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8446f2153052445195073bde0450a7c0</uuid>
                     <name>kamailio websocket: ws_current_connections</name>
                     <key>kamailio[websocket-ws_current_connections]</key>
                     <delay>120</delay>
@@ -2011,6 +2122,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>f42073fd0247460f8f5bded3bb3e5282</uuid>
                     <name>kamailio websocket: ws_failed_connections</name>
                     <key>kamailio[websocket-ws_failed_connections]</key>
                     <delay>120</delay>
@@ -2031,6 +2143,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>2db317c6dedd4e09a2fa45c312e508eb</uuid>
                     <name>kamailio websocket: ws_failed_handshakes</name>
                     <key>kamailio[websocket-ws_failed_handshakes]</key>
                     <delay>120</delay>
@@ -2051,6 +2164,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>077c9bcbd5974bf99ed701297298d7ce</uuid>
                     <name>kamailio websocket: ws_local_closed_connections</name>
                     <key>kamailio[websocket-ws_local_closed_connections]</key>
                     <delay>120</delay>
@@ -2071,6 +2185,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>47d43c22326745f68f11738238d7fe3b</uuid>
                     <name>kamailio websocket: ws_max_concurrent_connections</name>
                     <key>kamailio[websocket-ws_max_concurrent_connections]</key>
                     <delay>3600</delay>
@@ -2083,6 +2198,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>37f5ed953a5e41f882722856d44cfccc</uuid>
                     <name>kamailio websocket: ws_msrp_current_connections</name>
                     <key>kamailio[websocket-ws_msrp_current_connections]</key>
                     <delay>120</delay>
@@ -2095,6 +2211,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>e34b766f0e03410a9718ff66d05dbc52</uuid>
                     <name>kamailio websocket: ws_msrp_failed_connections</name>
                     <key>kamailio[websocket-ws_msrp_failed_connections]</key>
                     <delay>120</delay>
@@ -2115,6 +2232,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>3aade50a26ea4019ae13d1d78d080005</uuid>
                     <name>kamailio websocket: ws_msrp_local_closed_connections</name>
                     <key>kamailio[websocket-ws_msrp_local_closed_connections]</key>
                     <delay>120</delay>
@@ -2135,6 +2253,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>6110bb61cb3e400bb392ded2fa5ec40b</uuid>
                     <name>kamailio websocket: ws_msrp_max_concurrent_connections</name>
                     <key>kamailio[websocket-ws_msrp_max_concurrent_connections]</key>
                     <delay>3600</delay>
@@ -2147,6 +2266,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>fc822287891848a589f63d8bc0213f9c</uuid>
                     <name>kamailio websocket: ws_msrp_received_frames</name>
                     <key>kamailio[websocket-ws_msrp_received_frames]</key>
                     <delay>120</delay>
@@ -2167,6 +2287,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>82a10476d56e49ee82f36c6ce4a027f6</uuid>
                     <name>kamailio websocket: ws_msrp_remote_closed_connections</name>
                     <key>kamailio[websocket-ws_msrp_remote_closed_connections]</key>
                     <delay>120</delay>
@@ -2187,6 +2308,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>ce9ca46cadf44974b6cc2c61391a120e</uuid>
                     <name>kamailio websocket: ws_msrp_successful_handshakes</name>
                     <key>kamailio[websocket-ws_msrp_successful_handshakes]</key>
                     <delay>120</delay>
@@ -2207,6 +2329,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>f5479a6e4bbb46c199a90222a6d8a3d7</uuid>
                     <name>kamailio websocket: ws_msrp_transmitted_frames</name>
                     <key>kamailio[websocket-ws_msrp_transmitted_frames]</key>
                     <delay>120</delay>
@@ -2227,6 +2350,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>a55f345d8555421c85b894f5f5806562</uuid>
                     <name>kamailio websocket: ws_received_frames</name>
                     <key>kamailio[websocket-ws_received_frames]</key>
                     <delay>120</delay>
@@ -2247,6 +2371,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>8f8451a95f3b4a1883eb5a3c12d893d6</uuid>
                     <name>kamailio websocket: ws_remote_closed_connections</name>
                     <key>kamailio[websocket-ws_remote_closed_connections]</key>
                     <delay>120</delay>
@@ -2267,6 +2392,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>de9d8bb97b7f428a9bb516322477da7d</uuid>
                     <name>kamailio websocket: ws_sip_current_connections</name>
                     <key>kamailio[websocket-ws_sip_current_connections]</key>
                     <delay>120</delay>
@@ -2279,6 +2405,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>73f510f2232e4dd1a494f87dbfd67356</uuid>
                     <name>kamailio websocket: ws_sip_failed_connections</name>
                     <key>kamailio[websocket-ws_sip_failed_connections]</key>
                     <delay>120</delay>
@@ -2299,6 +2426,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>17dfb720b3524df3a088ad871e05cc40</uuid>
                     <name>kamailio websocket: ws_sip_local_closed_connections</name>
                     <key>kamailio[websocket-ws_sip_local_closed_connections]</key>
                     <delay>120</delay>
@@ -2319,6 +2447,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>3fd4d9e8225c47249e6a860b39be3cf8</uuid>
                     <name>kamailio websocket: ws_sip_max_concurrent_connections</name>
                     <key>kamailio[websocket-ws_sip_max_concurrent_connections]</key>
                     <delay>3600</delay>
@@ -2331,6 +2460,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>0fc95c8ac1174562a71e6f18dc9361f5</uuid>
                     <name>kamailio websocket: ws_sip_received_frames</name>
                     <key>kamailio[websocket-ws_sip_received_frames]</key>
                     <delay>120</delay>
@@ -2351,6 +2481,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>628184b560544bf5a2d5f329f19066bd</uuid>
                     <name>kamailio websocket: ws_sip_remote_closed_connections</name>
                     <key>kamailio[websocket-ws_sip_remote_closed_connections]</key>
                     <delay>120</delay>
@@ -2371,6 +2502,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>392c2dc581a842ea9c65e660c1ec575d</uuid>
                     <name>kamailio websocket: ws_sip_successful_handshakes</name>
                     <key>kamailio[websocket-ws_sip_successful_handshakes]</key>
                     <delay>120</delay>
@@ -2391,6 +2523,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>bc10685b0e4b43eb8e989dc2d6ba8a54</uuid>
                     <name>kamailio websocket: ws_sip_transmitted_frames</name>
                     <key>kamailio[websocket-ws_sip_transmitted_frames]</key>
                     <delay>120</delay>
@@ -2411,6 +2544,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>4493cf26d428400ab8a7b8a16a00ffab</uuid>
                     <name>kamailio websocket: ws_successful_handshakes</name>
                     <key>kamailio[websocket-ws_successful_handshakes]</key>
                     <delay>120</delay>
@@ -2431,6 +2565,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>c9a1a495c9fc4101b0dbbff8b7816f0e</uuid>
                     <name>kamailio websocket: ws_transmitted_frames</name>
                     <key>kamailio[websocket-ws_transmitted_frames]</key>
                     <delay>120</delay>
@@ -2451,6 +2586,7 @@
                     </tags>
                 </item>
                 <item>
+                    <uuid>56d8728f2e7e42a3a09abaaf6d1cd087</uuid>
                     <name>Processes: Kamailio</name>
                     <key>proc.num[,kamailio,,kamailio]</key>
                     <delay>120</delay>
@@ -2464,11 +2600,13 @@
                     </tags>
                     <triggers>
                         <trigger>
+                            <uuid>cc80d15f31e5476f898481fb24cdf858</uuid>
                             <expression>last(/Template - Voxbit - Kamailio/proc.num[,kamailio,,kamailio])&gt;256</expression>
                             <name>Kamailio Processes count too HIGH</name>
                             <priority>WARNING</priority>
                         </trigger>
                         <trigger>
+                            <uuid>c90c77ba869040ff823c37f85e047d69</uuid>
                             <expression>last(/Template - Voxbit - Kamailio/proc.num[,kamailio,,kamailio])&lt;30</expression>
                             <name>Kamailio Processes count too LOW</name>
                             <priority>AVERAGE</priority>
@@ -2480,6 +2618,7 @@
     </templates>
     <graphs>
         <graph>
+            <uuid>a056074afea740b8ab231402beb2a953</uuid>
             <name>Kamailio dialog</name>
             <graph_items>
                 <graph_item>
@@ -2524,6 +2663,7 @@
             </graph_items>
         </graph>
         <graph>
+            <uuid>1f1cff17bac04727a2501fdcbd50c1fa</uuid>
             <name>Kamailio Processes</name>
             <type>STACKED</type>
             <graph_items>
@@ -2537,6 +2677,7 @@
             </graph_items>
         </graph>
         <graph>
+            <uuid>768464a77b6f49c5ac3b5d0157eb0c12</uuid>
             <name>Kamailio shmem</name>
             <graph_items>
                 <graph_item>
@@ -2581,6 +2722,7 @@
             </graph_items>
         </graph>
         <graph>
+            <uuid>edac35d5151b472aa6aa0ab91e5a645e</uuid>
             <name>Kamailio sl</name>
             <graph_items>
                 <graph_item>
@@ -2664,6 +2806,7 @@
             </graph_items>
         </graph>
         <graph>
+            <uuid>da2b9801545d4152a5cb30d31706fd0f</uuid>
             <name>Kamailio tmx</name>
             <graph_items>
                 <graph_item>
@@ -2724,6 +2867,7 @@
             </graph_items>
         </graph>
         <graph>
+            <uuid>729777e3059f44da836179eede6f344c</uuid>
             <name>Kamailio usrloc</name>
             <graph_items>
                 <graph_item>
