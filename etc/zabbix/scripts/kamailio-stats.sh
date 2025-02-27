@@ -155,9 +155,9 @@ case $METRIC in
     'tmx-rpl_received')         cat $CACHE | grep 'tmx:rpl_received' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'tmx-rpl_relayed')         cat $CACHE | grep 'tmx:rpl_relayed' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'tmx-rpl_sent')         cat $CACHE | grep 'tmx:rpl_sent' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
-    'usrloc-location-contacts')  cat $CACHE | grep 'usrloc:location-contacts' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
-    'usrloc-location-expires')   cat $CACHE | grep 'usrloc:location-expires' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
-    'usrloc-location-users')     cat $CACHE | grep 'usrloc:location-users' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'usrloc-location-contacts')  cat $CACHE | grep 'usrloc:location_contacts' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'usrloc-location-expires')   cat $CACHE | grep 'usrloc:location_expires' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
+    'usrloc-location-users')     cat $CACHE | grep 'usrloc:location_users' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'usrloc-registered_users')   cat $CACHE | grep 'usrloc:registered_users' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'websocket-ws_current_connections')   cat $CACHE | grep 'websocket:ws_current_connections' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
     'websocket-ws_failed_connections')   cat $CACHE | grep 'websocket:ws_failed_connections' | tr -d "[:blank:]" |cut -d'=' -f2 | tr -d "[:punct:]" ;;
